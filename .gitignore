@@ -2,7 +2,7 @@
 *.log
 .DS_Store
 .vscode
-/img
+img/
 
 # ignore ALL files in ANY directory named temp
 temp/
