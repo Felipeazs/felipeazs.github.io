@@ -17,6 +17,7 @@ body {
 /* Mis trabajos */
 #Mis-trabajos {
   background-color: #ffff !important;
+  padding: 10%;
 }
 #Mis-trabajos .image-top {
   height: 250px;
