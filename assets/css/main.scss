@@ -1,0 +1,27 @@
+@import 'sass/base/typography';
+
+@import 'sass/layout/navigator', 'sass/layout/main';
+
+* {
+	box-sizing: content-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #28292d;
+	font-family: $primary-font;
+	margin: 0;
+}
+p,
+li {
+	font-size: 1.2rem;
+}
+h1 {
+	font-size: 3rem;
+	font-family: $secondary-font;
+}
+hr {
+	margin: 50px 0;
+}

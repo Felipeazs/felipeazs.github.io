@@ -1,0 +1,182 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 0 5%;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 60px;
+  color: white;
+}
+nav .felipe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-weight: bolder;
+}
+nav .felipe .perfil {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+nav .felipe p {
+  margin: 0;
+}
+nav .felipe .dropdown-menu {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 40px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul a:hover {
+  color: #28292d;
+}
+
+.disposicion, main .expertise, main .proyectos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 35vh;
+}
+
+main {
+  text-align: center;
+  color: white;
+}
+main .hero {
+  background-image: url("/assets/img/hero2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  height: 80vh;
+}
+main .proyectos .item {
+  width: 400px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 15px;
+  text-align: center;
+}
+main .proyectos .item .retrocicla {
+  background-image: url("https://res.cloudinary.com/hbe31hrjn/image/upload/v1653487394/resources/somos_uvt2bb.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  height: 100%;
+  transition: box-shadow 0.5s;
+}
+main .proyectos .item .retrocicla:hover {
+  box-shadow: 0px 0px 40px 5px #fff;
+  cursor: pointer;
+}
+main .proyectos .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .expertise {
+  flex-direction: column;
+  height: 120px;
+  gap: 20px;
+}
+main .expertise .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+  width: 100%;
+}
+main .expertise .item .exp {
+  cursor: pointer;
+}
+main .expertise .item .exp p {
+  margin: 0;
+  color: #28292d;
+  text-align: center;
+}
+main .expertise .treinee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 31%;
+  width: 500px;
+  gap: 20px;
+}
+main .expertise .treinee img {
+  width: 100%;
+}
+main .expertise .treinee .talento-digital,
+main .expertise .treinee .desafio-latam {
+  transition: transform 0.5s;
+}
+main .expertise .treinee .talento-digital:hover,
+main .expertise .treinee .desafio-latam:hover {
+  transform: scale(1.1);
+}
+main .expertise .hero-part {
+  position: absolute;
+  top: 30%;
+  width: 600px;
+  height: 250px;
+  background-color: #28292d;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+main .expertise .hero-part-text {
+  position: absolute;
+  width: 380px;
+  height: 200px;
+  font-size: 1.2rem;
+  top: 27%;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #28292d;
+  font-family: "Anek Malayalam", sans-serif;
+  margin: 0;
+}
+
+p,
+li {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+}
+
+hr {
+  margin: 50px 0;
+}/*# sourceMappingURL=main.css.map */

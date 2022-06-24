@@ -1,0 +1,106 @@
+.disposicion {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	height: 35vh;
+}
+main {
+	text-align: center;
+	color: white;
+	.hero {
+		background-image: url('/assets/img/hero2.jpg');
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		z-index: 0;
+		height: 80vh;
+	}
+	.proyectos {
+		@extend .disposicion;
+		.item {
+			width: 400px;
+			height: 200px;
+			border: 1px solid white;
+			border-radius: 15px;
+			text-align: center;
+			.retrocicla {
+				background-image: url('https://res.cloudinary.com/hbe31hrjn/image/upload/v1653487394/resources/somos_uvt2bb.png');
+				background-size: cover;
+				background-position: center;
+				border-radius: 15px;
+				height: 100%;
+				transition: box-shadow 0.5s;
+			}
+			.retrocicla:hover {
+				box-shadow: 0px 0px 40px 5px #fff;
+				cursor: pointer;
+			}
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+	.expertise {
+		@extend .disposicion;
+		flex-direction: column;
+		height: 120px;
+		gap: 20px;
+		.item {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			padding-top: 20px;
+			gap: 10px;
+			width: 100%;
+			.exp {
+				cursor: pointer;
+				p {
+					margin: 0;
+					color: #28292d;
+					text-align: center;
+				}
+			}
+		}
+		.treinee {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			position: absolute;
+			top: 31%;
+			width: 500px;
+			gap: 20px;
+			img {
+				width: 100%;
+			}
+			.talento-digital,
+			.desafio-latam {
+				transition: transform 0.5s;
+			}
+			.talento-digital:hover,
+			.desafio-latam:hover {
+				transform: scale(1.1);
+			}
+		}
+		.hero-part {
+			position: absolute;
+			top: 30%;
+			width: 600px;
+			height: 250px;
+			background-color: #28292d;
+			opacity: 0.8;
+			border-radius: 15px;
+		}
+		.hero-part-text {
+			position: absolute;
+			width: 380px;
+			height: 200px;
+			font-size: 1.2rem;
+			top: 27%;
+		}
+	}
+}
