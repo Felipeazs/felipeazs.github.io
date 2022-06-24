@@ -77,8 +77,10 @@ nav .menu a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 40px;
-  height: 35vh;
+  height: 100%;
+  margin: 150px 0;
 }
 
 main {
@@ -118,10 +120,20 @@ main .proyectos .item img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+main .desarrollo .item {
+  height: 500px;
+}
+main .desarrollo .item .contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  text-align: start;
+}
 main .expertise {
   flex-direction: column;
   height: 120px;
-  gap: 20px;
+  margin: 0;
 }
 main .expertise .item {
   display: flex;
@@ -213,5 +225,5 @@ h1 {
 }
 
 hr {
-  margin: 50px 0;
+  margin: 20px 0;
 }/*# sourceMappingURL=main.css.map */
