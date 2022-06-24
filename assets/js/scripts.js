@@ -16,7 +16,14 @@ $(document).ready(function () {
         return new bootstrap.Popover(popoverTriggerEl)
     })
 
-    
+    $('.felipe').hover(function () {
+        $('.dropdown').show(125);
+    });
+    $('.dropdown').on('mouseleave', function () {
+        $('.dropdown').hide();
+    });
+
+
 
 
 });

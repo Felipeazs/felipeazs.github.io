@@ -26,11 +26,29 @@ nav {
 		p {
 			margin: 0;
 		}
-		.dropdown-menu {
-			width: fit-content !important;
+	}
+	.dropdown {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top: 60px;
+		left: 6%;
+		background-color: rgba(0, 0, 0, 0.8);
+		height: 70px;
+		width: 120px;
+		border-radius: 10px;
+		border: 2px solid white;
+		.elementos {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+			width: 80%;
 		}
 	}
-	ul {
+	.menu {
 		display: flex;
 		flex-direction: row;
 		list-style: none;
@@ -41,6 +59,9 @@ nav {
 		}
 		a:hover {
 			color: #28292d;
+			color: #fff;
+			text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa,
+				0 0 102px #0fa, 0 0 151px #0fa;
 		}
 	}
 }
