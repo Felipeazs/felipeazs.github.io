@@ -25,11 +25,12 @@ nav .felipe .perfil {
   height: 50px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
+  transition: 0.3s;
 }
 nav .felipe .perfil:hover {
   cursor: pointer;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 nav .felipe p {
   margin: 0;
@@ -68,7 +69,7 @@ nav .menu a {
 nav .menu a:hover {
   color: #28292d;
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 7px #f9a907, 0 0 10px #f9a907, 0 0 21px #f9a907, 0 0 42px #f9a907, 0 0 82px #f9a907, 0 0 92px #f9a907, 0 0 102px #f9a907, 0 0 151px #f9a907;
 }
 
 .disposicion, main .expertise, main .proyectos {
@@ -174,6 +175,17 @@ main .expertise .hero-part-text {
   height: 200px;
   font-size: 1.2rem;
   top: 27%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #e86702;
+  color: #000000;
+  height: 50px;
 }
 
 * {

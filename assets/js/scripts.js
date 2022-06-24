@@ -20,10 +20,7 @@ $(document).ready(function () {
         $('.dropdown').show(125);
     });
     $('.dropdown').on('mouseleave', function () {
-        $('.dropdown').hide(125);
+        $(this).hide(125);
     });
-
-
-
 
 });
