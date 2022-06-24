@@ -16,11 +16,11 @@ $(document).ready(function () {
         return new bootstrap.Popover(popoverTriggerEl)
     })
 
-    $('.felipe').hover(function () {
+    $('.perfil').on('click', function () {
         $('.dropdown').show(125);
     });
     $('.dropdown').on('mouseleave', function () {
-        $('.dropdown').hide();
+        $('.dropdown').hide(125);
     });
 
 

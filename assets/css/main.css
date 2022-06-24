@@ -25,6 +25,11 @@ nav .felipe .perfil {
   height: 50px;
   -o-object-fit: cover;
      object-fit: cover;
+  border: 2px solid transparent;
+}
+nav .felipe .perfil:hover {
+  cursor: pointer;
+  border: 2px solid white;
 }
 nav .felipe p {
   margin: 0;
