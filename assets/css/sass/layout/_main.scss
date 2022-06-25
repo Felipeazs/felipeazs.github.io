@@ -22,8 +22,8 @@ main {
 	.proyectos {
 		@extend .disposicion;
 		.item {
-			width: 400px;
-			height: 200px;
+			width: 300px;
+			height: 150px;
 			border: 1px solid white;
 			border-radius: 15px;
 			text-align: center;
@@ -63,8 +63,8 @@ main {
 				display: flex;
 				flex-direction: row;
 				text-align: end;
-				width: 80%;
-				height: 500px;
+				width: 90%;
+				height: auto;
 			}
 			.contenido2 {
 				text-align: start;
@@ -111,11 +111,11 @@ main {
 		}
 		.treinee {
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 			align-items: center;
 			position: absolute;
 			top: 31%;
-			width: 500px;
+			width: 50%;
 			gap: 20px;
 			img {
 				width: 100%;
@@ -132,8 +132,8 @@ main {
 		.hero-part {
 			position: absolute;
 			top: 30%;
-			width: 600px;
-			height: 250px;
+			width: 250px;
+			height: 300px;
 			background-color: #28292d;
 			opacity: 0.8;
 			border-radius: 15px;
@@ -150,6 +150,12 @@ main {
 
 @media (min-width: 1000px) {
 	main {
+		.proyectos {
+			.item {
+				width: 400px;
+				height: 200px;
+			}
+		}
 		.desarrollo {
 			.lenguaje {
 				flex-direction: row;
@@ -162,6 +168,17 @@ main {
 			}
 			.lenguaje2 {
 				flex-direction: row-reverse;
+			}
+		}
+		.expertise {
+			.treinee {
+				flex-direction: row;
+				width: 500px;
+				gap: 20px;
+			}
+			.hero-part {
+				width: 600px;
+				height: 250px;
 			}
 		}
 	}
