@@ -19,8 +19,17 @@ main {
 		z-index: 0;
 		height: 80vh;
 	}
+	.proyectos2 {
+		background-color: #181818;
+		padding-top: 50px;
+	}
+	.proyectos3 {
+		padding-top: 50px;
+	}
 	.proyectos {
 		@extend .disposicion;
+		margin: 0;
+		padding: 150px 0;
 		.item {
 			width: 300px;
 			height: 150px;
@@ -47,6 +56,7 @@ main {
 		}
 	}
 	.desarrollo {
+		margin: 150px 0;
 		.lenguaje {
 			display: flex;
 			flex-direction: column;
@@ -90,24 +100,10 @@ main {
 	.expertise {
 		@extend .disposicion;
 		flex-direction: column;
-		height: 120px;
+		height: min-content;
 		margin: 0;
 		.item {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			align-items: center;
-			padding-top: 20px;
-			gap: 10px;
-			width: 100%;
-			.exp {
-				cursor: pointer;
-				p {
-					margin: 0;
-					color: #28292d;
-					text-align: center;
-				}
-			}
+			display: none;
 		}
 		.treinee {
 			display: flex;
@@ -118,7 +114,7 @@ main {
 			width: 50%;
 			gap: 20px;
 			img {
-				width: 100%;
+				width: 200px;
 			}
 			.talento-digital,
 			.desafio-latam {
@@ -133,7 +129,7 @@ main {
 			position: absolute;
 			top: 30%;
 			width: 250px;
-			height: 300px;
+			height: 350px;
 			background-color: #28292d;
 			opacity: 0.8;
 			border-radius: 15px;
@@ -148,6 +144,31 @@ main {
 	}
 }
 
+@media (min-width: 600px) {
+	main {
+		.expertise {
+			.item {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+				padding-top: 40px;
+				gap: 10px;
+				width: 100%;
+				height: fit-content;
+				.exp {
+					cursor: pointer;
+					p {
+						margin: 0;
+						color: #28292d;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
 @media (min-width: 1000px) {
 	main {
 		.proyectos {
@@ -173,11 +194,13 @@ main {
 		.expertise {
 			.treinee {
 				flex-direction: row;
+				justify-content: center;
+				top: 32%;
 				width: 500px;
 				gap: 20px;
 			}
 			.hero-part {
-				width: 600px;
+				width: 500px;
 				height: 250px;
 			}
 		}
