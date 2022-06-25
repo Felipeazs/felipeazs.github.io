@@ -10,12 +10,6 @@ $(document).ready(function () {
         $(this).find('img').animate({ 'width': '80px' }, 150);
     })
 
-    //tooltips
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-    })
-
     $('.perfil').on('click', function () {
         $('.dropdown').show(125);
     });

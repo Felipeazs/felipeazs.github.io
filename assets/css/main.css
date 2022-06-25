@@ -236,9 +236,7 @@ main .expertise .hero-part-text {
     padding-top: 40px;
     gap: 10px;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    min-height: 140px;
   }
   main .expertise .item .exp {
     cursor: pointer;

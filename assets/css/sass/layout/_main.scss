@@ -156,7 +156,7 @@ main {
 				padding-top: 40px;
 				gap: 10px;
 				width: 100%;
-				height: fit-content;
+				min-height: 140px;
 				.exp {
 					cursor: pointer;
 					p {
