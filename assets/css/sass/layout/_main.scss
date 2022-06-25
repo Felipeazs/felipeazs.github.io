@@ -47,15 +47,34 @@ main {
 		}
 	}
 	.desarrollo {
-		.item {
+		.lenguaje {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
 			height: 500px;
+			padding: 0 5%;
+			.titulo {
+				text-align: center;
+				width: 60%;
+			}
 			.contenido {
 				display: flex;
-				flex-direction: column;
-				align-items: flex-start;
-				margin-left: 20px;
+				flex-direction: row;
+				text-align: end;
+				width: 40%;
+			}
+			.contenido2 {
 				text-align: start;
 			}
+			.iconos {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		.item:hover {
+			box-shadow: 0px 0px 10px 5px #fff;
+			cursor: pointer;
 		}
 	}
 	.expertise {

@@ -7,4 +7,19 @@ footer {
 	background-color: #e86702;
 	color: #000000;
 	height: 50px;
+	img {
+		animation: rotation 5s infinite;
+	}
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(359deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
 }
