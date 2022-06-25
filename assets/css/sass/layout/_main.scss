@@ -33,19 +33,19 @@ main {
 		.item {
 			width: 300px;
 			height: 150px;
-			border: 1px solid white;
-			border-radius: 15px;
+			border: 1px solid #d2d2cf;
+			border-radius: 5px;
 			text-align: center;
 			.retrocicla {
 				background-image: url('https://res.cloudinary.com/hbe31hrjn/image/upload/v1653487394/resources/somos_uvt2bb.png');
 				background-size: cover;
 				background-position: center;
-				border-radius: 15px;
+				border-radius: 5px;
 				height: 100%;
 				transition: box-shadow 0.5s;
 			}
 			.retrocicla:hover {
-				box-shadow: 0px 0px 10px 5px #fff;
+				box-shadow: 0px 0px 10px 5px #d2d2cf;
 				cursor: pointer;
 			}
 			img {
@@ -108,28 +108,30 @@ main {
 		.treinee {
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
 			align-items: center;
+			flex-wrap: wrap;
 			position: absolute;
-			top: 31%;
+			top: 27%;
 			width: 50%;
 			gap: 20px;
-			img {
-				width: 200px;
-			}
-			.talento-digital,
-			.desafio-latam {
+			.logos {
 				transition: transform 0.5s;
 			}
-			.talento-digital:hover,
-			.desafio-latam:hover {
+			.logos:hover {
 				transform: scale(1.1);
+			}
+			.udemy {
+				position: absolute;
+				top: 100%;
+				left: 50%;
 			}
 		}
 		.hero-part {
 			position: absolute;
-			top: 30%;
+			top: 25%;
 			width: 250px;
-			height: 350px;
+			height: 450px;
 			background-color: #28292d;
 			opacity: 0.8;
 			border-radius: 15px;
@@ -198,8 +200,14 @@ main {
 				top: 32%;
 				width: 500px;
 				gap: 20px;
+				.udemy {
+					position: absolute;
+					top: 60%;
+					left: 80%;
+				}
 			}
 			.hero-part {
+				top: 30%;
 				width: 500px;
 				height: 250px;
 			}
