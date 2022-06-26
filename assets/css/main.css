@@ -10,7 +10,7 @@ nav {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.3);
   height: 60px;
-  color: white;
+  color: #d2d2cf;
 }
 nav .felipe {
   display: flex;
@@ -30,7 +30,7 @@ nav .felipe .perfil {
 }
 nav .felipe .perfil:hover {
   cursor: pointer;
-  border: 3px solid white;
+  border: 3px solid #d2d2cf;
 }
 nav .felipe p {
   display: none;
@@ -48,7 +48,7 @@ nav .dropdown {
   height: 70px;
   width: 120px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #d2d2cf;
 }
 nav .dropdown .elementos {
   display: flex;
@@ -104,6 +104,7 @@ main .hero {
 main .proyectos2 {
   background-color: #181818;
   padding-top: 50px;
+  color: #d2d2cf;
 }
 main .proyectos3 {
   padding-top: 50px;
@@ -152,6 +153,7 @@ main .desarrollo .lenguaje {
 main .desarrollo .lenguaje .titulo {
   text-align: center;
   width: 90%;
+  color: #d2d2cf;
 }
 main .desarrollo .lenguaje .contenido {
   display: flex;

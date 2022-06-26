@@ -10,7 +10,7 @@ nav {
 	z-index: 1;
 	background-color: rgba(0, 0, 0, 0.3);
 	height: 60px;
-	color: white;
+	color: #d2d2cf;
 	.felipe {
 		display: flex;
 		flex-direction: row;
@@ -27,7 +27,7 @@ nav {
 		}
 		.perfil:hover {
 			cursor: pointer;
-			border: 3px solid white;
+			border: 3px solid #d2d2cf;
 		}
 		p {
 			display: none;
@@ -46,7 +46,7 @@ nav {
 		height: 70px;
 		width: 120px;
 		border-radius: 10px;
-		border: 2px solid white;
+		border: 2px solid #d2d2cf;
 		.elementos {
 			display: flex;
 			flex-direction: row;
