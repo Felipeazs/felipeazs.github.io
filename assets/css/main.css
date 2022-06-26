@@ -159,6 +159,7 @@ main .desarrollo .lenguaje .contenido {
   text-align: end;
   width: 90%;
   height: auto;
+  margin: 50px 0;
 }
 main .desarrollo .lenguaje .contenido2 {
   text-align: start;
