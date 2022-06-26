@@ -56,7 +56,6 @@ nav .menu {
   gap: 40px;
 }
 nav .menu a {
-  text-decoration: none;
   color: #e7e7e7;
 }
 nav .menu a:hover {
@@ -351,4 +350,9 @@ h1 {
 
 hr {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e7e7e7;
 }/*# sourceMappingURL=main.css.map */
