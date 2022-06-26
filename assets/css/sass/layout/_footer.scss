@@ -14,10 +14,14 @@ footer {
 		gap: 10px;
 		.logo {
 			animation: rotation 5s infinite;
-		}		
+		}
 		p {
 			font-size: 0.9rem;
 		}
+	}
+	.website-counter {
+		font-size: 1.5rem;
+		font-weight: 600;
 	}
 }
 

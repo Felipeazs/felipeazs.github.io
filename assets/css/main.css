@@ -298,6 +298,10 @@ footer .item .logo {
 footer .item p {
   font-size: 0.9rem;
 }
+footer .website-counter {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 
 @-webkit-keyframes rotation {
   from {
