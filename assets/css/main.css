@@ -10,7 +10,7 @@ nav {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.3);
   height: 60px;
-  color: #d2d2cf;
+  color: #e7e7e7;
 }
 nav .felipe {
   display: flex;
@@ -30,7 +30,7 @@ nav .felipe .perfil {
 }
 nav .felipe .perfil:hover {
   cursor: pointer;
-  border: 3px solid #d2d2cf;
+  border: 3px solid #e7e7e7;
 }
 nav .felipe p {
   display: none;
@@ -57,10 +57,10 @@ nav .menu {
 }
 nav .menu a {
   text-decoration: none;
-  color: #fff;
+  color: #e7e7e7;
 }
 nav .menu a:hover {
-  color: #fff;
+  color: #e7e7e7;
   text-shadow: 0 0 7px #f9a907, 0 0 10px #f9a907, 0 0 21px #f9a907, 0 0 42px #f9a907, 0 0 82px #f9a907, 0 0 92px #f9a907, 0 0 102px #f9a907, 0 0 151px #f9a907;
 }
 
@@ -346,7 +346,7 @@ h1 {
   font-size: 3rem;
   font-family: "Lato", sans-serif;
   margin: 0;
-  color: #d2d2cf;
+  color: #e7e7e7;
 }
 
 hr {
