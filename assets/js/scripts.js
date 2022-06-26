@@ -10,11 +10,7 @@ $(document).ready(function () {
         $(this).find('img').animate({ 'width': '80px' }, 150);
     })
 
-    $('.perfil').on('click', function () {
-        $('.dropdown').show(125);
+    $('.perfil').hover(function () {
+        $('.dropdown').show(200);
     });
-    $('.dropdown').on('mouseleave', function () {
-        $(this).hide(125);
-    });
-
 });

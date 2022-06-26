@@ -35,26 +35,19 @@ nav {
 		}
 	}
 	.dropdown {
-		position: absolute;
-		display: flex;
+		display: none;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		top: 60px;
-		left: 6%;
-		background-color: rgba(0, 0, 0, 0.8);
-		height: 70px;
-		width: 120px;
-		border-radius: 10px;
-		border: 2px solid #d2d2cf;
 		.elementos {
 			display: flex;
 			flex-direction: row;
 			align-items: center;
 			justify-content: space-around;
-			width: 80%;
+			gap: 10px;
 		}
 	}
+
 	.menu {
 		display: flex;
 		flex-direction: row;
@@ -65,7 +58,6 @@ nav {
 			color: #fff;
 		}
 		a:hover {
-			color: #28292d;
 			color: #fff;
 			text-shadow: 0 0 7px #f9a907, 0 0 10px #f9a907, 0 0 21px #f9a907, 0 0 42px #f9a907, 0 0 82px #f9a907,
 				0 0 92px #f9a907, 0 0 102px #f9a907, 0 0 151px #f9a907;
